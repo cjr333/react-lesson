@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
+import YTSearch from 'youtube-api-search';
 
 import SearchBar from './components/search_bar'
 
 const API_KEY = "AIzaSyCZ0FzBGlP8vSCX5b9NxfveF2JLkV-zc0k";
+
+YTSearch({key: API_KEY, term: 'surfboards'}, function (data) {
+  console.log(data);
+});
 
 // Create a new component. This component should produce
 // some HTML
