@@ -9,7 +9,7 @@ import promise from 'redux-promise';
 
 import App from './components/app';
 
-import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-router-redux'
+import { ConnectedRouter, routerMiddleware } from 'react-router-redux'
 
 // http://www.blog.com/posts/5 -- browserHistory
 // http://www.blog.com/posts/5# -- hashHistory
